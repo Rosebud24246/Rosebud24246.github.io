@@ -1,0 +1,105 @@
+html, body {
+  font-family: Lucida Sans;
+  margin: 0;
+  padding: 0px;
+}
+
+.header {
+  font-family: Sofia;
+  text-align: center;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 200px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.navbar {
+  font-size: 40px;
+  text-align: center;
+  background: #ffffff;
+  padding-top: 20px;
+}
+
+a.button-style {
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #000000;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#000000;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+a.button-style:hover {
+  color:#ffffff;
+  background-color:#000000;
+}
+
+.bouncy{
+  animation:bouncy 5s infinite linear;
+  position:relative;
+}
+
+@keyframes bouncy {
+  0%{top:0em}
+  40%{top:0em}
+  43%{top:-0.9em}
+  46%{top:0em}
+  48%{top:-0.4em}
+  50%{top:0em}
+  100%{top:0em;}
+}
+
+.roses {
+  text-align: center;
+}
+
+.roses1 {
+  padding-top: 100px;
+}
+
+.roses2 {
+  padding-bottom: 100px;
+}
+
+.text {
+  color: #000000;
+  text-align: center;
+  font-family: Sofia;
+  font-size: 80px;
+  padding: 0px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
