@@ -1,0 +1,83 @@
+html, body {
+    font-family: Lucida Sans;
+    margin: 0;
+    padding: 0px;
+    font-size: 20px;
+}
+  
+a.button-style {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #000000;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#000000;
+    text-align:center;
+    transition: all 0.2s;
+}
+  
+a.button-style:hover {
+    color:#ffffff;
+    background-color:#000000;
+}
+  
+.bouncy{
+    animation:bouncy 5s infinite linear;
+    position:relative;
+}
+  
+@keyframes bouncy {
+    0%{top:0em}
+    40%{top:0em}
+    43%{top:-0.9em}
+    46%{top:0em}
+    48%{top:-0.4em}
+    50%{top:0em}
+    100%{top:0em;}
+}
+
+.photo-gallery {
+    color:#000000;
+    background-color:#fff;
+}
+  
+.photo-gallery p {
+    color:#272727;
+}
+  
+.photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+}
+  
+@media (max-width:767px) {
+    .photo-gallery h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+}
+  
+.photo-gallery .intro {
+    font-size:20px;
+    max-width:500px;
+    margin:0 auto 40px;
+}
+  
+.photo-gallery .intro p {
+    margin-bottom:0;
+}
+  
+.photo-gallery .photos {
+    padding-bottom:20px;
+}
+  
+.photo-gallery .item {
+    padding-bottom:30px;
+}
